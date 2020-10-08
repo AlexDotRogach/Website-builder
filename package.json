@@ -1,11 +1,30 @@
 {
   "name": "-d",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Alex Rogach",
+  "license": "ISC",
+  "dependencies": {
+    "parsleyjs": "^2.9.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexDotRogach/Website-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexDotRogach/Website-builder/issues"
+  },
+  "homepage": "https://github.com/AlexDotRogach/Website-builder#readme",
+  "description": "web builder",
+  "keywords": [
+    "123"
+  ]
 }

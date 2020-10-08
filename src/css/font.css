@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'TT Commons';
+    src: url('../font//Apple/TTCommons-Medium.eot');
+    src: local('../font//Apple/TT Commons Medium'), local('TTCommons-Medium'),
+        url('../font//Apple/TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font//Apple/TTCommons-Medium.woff') format('woff'),
+        url('../font//Apple/TTCommons-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
